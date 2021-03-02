@@ -56,7 +56,7 @@ const (
     LOGSEVERITY_INFO = C.LOGSEVERITY_INFO
     LOGSEVERITY_WARNING = C.LOGSEVERITY_WARNING
     LOGSEVERITY_ERROR = C.LOGSEVERITY_ERROR
-    LOGSEVERITY_ERROR_REPORT = C.LOGSEVERITY_ERROR_REPORT
+    //LOGSEVERITY_ERROR_REPORT = C.LOGSEVERITY_ERROR_REPORT
     LOGSEVERITY_DISABLE = C.LOGSEVERITY_DISABLE
 )
 
@@ -145,7 +145,7 @@ func CreateBrowser(hwnd syscall.Handle, settings BrowserSettings,
     // Must call synchronously so that a call to WindowResize()
     // works, after this function returns.
     C.cef_browser_host_create_browser_sync(&windowInfo, nil, &cefUrl,
-            &cefSettings, nil)
+            &cefSettings, nil,nil)
 }
 
 func RunMessageLoop() {
