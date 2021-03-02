@@ -1,3 +1,21 @@
+
+2021-03-02:  fixed: cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal
+
+```       
+	   step 1 :
+	     download and unpack : https://cef-builds.spotifycdn.com/cef_binary_88.2.9%2Bg5c8711a%2Bchromium-88.0.4324.182_windows64.tar.bz2
+	   step 2 :
+	     copy src dir to  cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/src
+	   step 3 :	   
+	     copy Resources dir to  cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/Release/Resources
+	   step 4 :
+	     run  src/build.cmd
+	   end.
+```
+2021-03-01: fixed: go1.15.7 windows 386  (src/build32.cmd )
+
+
+
 cef2go - HTML 5 based GUI toolkit for the Go language
 =====================================================
 
