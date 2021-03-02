@@ -7,7 +7,7 @@
 	   step 2 :
 	     copy src dir to  cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/src
 	   step 3 :	   
-	     copy Resources dir to  cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/Release/Resources
+	     copy cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/Resources/* to  cef_binary_88.2.9+g5c8711a+chromium-88.0.4324.182_windows64_minimal/Release/
 	   step 4 :
 	     run  src/build.cmd
 	   end.
